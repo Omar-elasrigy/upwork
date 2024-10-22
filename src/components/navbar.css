@@ -1,0 +1,92 @@
+/* Language icon */
+#lang {
+    width: 20px;
+    height: 20px;
+  }
+  
+  /* Header base styling */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+  }
+  
+  /* Logo styling */
+  .header .logo {
+    font-size: 40px;
+    font-weight: 700;
+  }
+  
+  /* Nav styling */
+  .header .nav {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .header .nav a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+  }
+  
+  /* Flex alignment for language */
+  .d-flex {
+    display: flex;
+    align-items: center;
+  }
+  
+  .language-link {
+    margin-left: 5px;
+    font-weight: 600;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  /* Hover effect */
+  .nav a:hover {
+    color: gray;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .header {
+      flex-direction: column;
+      text-align: center;
+    }
+    
+    .header .logo {
+      font-size: 30px;
+    }
+    
+    .header .nav {
+      flex-direction: column;
+      gap: 10px;
+    }
+    
+    .header .nav a {
+      font-size: 18px;
+    }
+    
+    #lang {
+      width: 16px;
+      height: 16px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .header .logo {
+      font-size: 24px;
+    }
+  
+    .header .nav a {
+      font-size: 16px;
+    }
+  
+    #lang {
+      width: 14px;
+      height: 14px;
+    }
+  }
+  
