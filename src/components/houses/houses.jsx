@@ -1,4 +1,5 @@
 import React from "react";
+import "./houses.css"
 export default function Houses(){
     return(
         <><div className="explore">

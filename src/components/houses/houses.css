@@ -1,0 +1,35 @@
+.explore {
+    text-align: center;
+    margin: 40px 0;
+}
+.explore h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+.explore .houses {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+.explore .house {
+    background: white;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+.explore .house img {
+    width: 100%;
+}
+.explore .house .details {
+    padding: 10px;
+    text-align: center;
+}
+.explore .house .details h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+.explore .house .details p {
+    color: #777;
+    margin: 0;
+}
